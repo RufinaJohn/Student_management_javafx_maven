@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: #34c9eb;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dbms.student_management_javafx_maven.HomePageController">
+   <children>
+      <Pane layoutX="100.0" layoutY="100.0" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Label fx:id="name" alignment="CENTER" layoutX="285.0" layoutY="35.0" prefHeight="39.0" prefWidth="230.0" textFill="#8000ff">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="staffid" alignment="CENTER" layoutX="285.0" layoutY="85.0" prefHeight="45.0" prefWidth="230.0" textFill="#8800ff">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <JFXButton layoutX="313.0" layoutY="169.0" onAction="#addstudent" prefHeight="44.0" prefWidth="189.0" style="-fx-background-color: #34c9eb;" text="Add Student" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="312.0" layoutY="240.0" onAction="#entermarks" prefHeight="44.0" prefWidth="189.0" style="-fx-background-color: #34c9eb;" text="Enter Marks" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="311.0" layoutY="308.0" onAction="#enterattendance" style="-fx-background-color: #34c9eb;" text="Enter Attendance" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="311.0" layoutY="388.0" onAction="#viewdetails" prefHeight="44.0" prefWidth="189.0" style="-fx-background-color: #34c9eb;" text="View Details" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="367.0" layoutY="505.0" onAction="#logout" style="-fx-background-color: #34c9eb;" text="LOG OUT" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

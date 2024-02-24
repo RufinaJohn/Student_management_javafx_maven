@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: #34c9eb;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dbms.student_management_javafx_maven.EnterMarksPageController">
+   <children>
+      <Pane layoutX="100.0" layoutY="100.0" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <JFXButton layoutX="373.0" layoutY="533.0" onAction="#home" style="-fx-background-color: #34c9eb;" text="HOME" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+            <JFXTextField fx:id="mark" focusColor="#34c9eb" labelFloat="true" layoutX="299.0" layoutY="325.0" prefHeight="45.0" prefWidth="200.0" promptText="Mark">
+               <font>
+                  <Font size="15.0" />
+               </font></JFXTextField>
+            <JFXButton layoutX="301.0" layoutY="423.0" onAction="#insert" prefHeight="45.0" prefWidth="200.0" style="-fx-background-color: #34c9eb;" text="INSERT" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+            <JFXComboBox fx:id="rollnocombo" focusColor="#34c9eb" labelFloat="true" layoutX="300.0" layoutY="219.0" onAction="#selectrollno" prefHeight="45.0" prefWidth="200.0" promptText="Roll no" />
+            <JFXComboBox fx:id="subjectcombo" focusColor="#34c9eb" labelFloat="true" layoutX="300.0" layoutY="117.0" onAction="#selectsubject" prefHeight="45.0" prefWidth="200.0" promptText="Subject" />
+            <Label alignment="CENTER" layoutX="236.0" layoutY="30.0" prefHeight="45.0" prefWidth="330.0" text="MARK ENTRY" textFill="#34c9eb">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </Label>
+            <Label fx:id="success" alignment="CENTER" layoutX="236.0" layoutY="483.0" prefHeight="33.0" prefWidth="330.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

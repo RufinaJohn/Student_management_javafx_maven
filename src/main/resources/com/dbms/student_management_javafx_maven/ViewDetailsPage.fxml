@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: #34c9eb;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dbms.student_management_javafx_maven.ViewDetailsPageController">
+   <children>
+      <Pane layoutX="101.0" layoutY="100.0" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <JFXButton layoutX="374.0" layoutY="545.0" onAction="#home" style="-fx-background-color: #34c9eb;" text="HOME" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="79.0" layoutY="121.0" onAction="#viewdetails" prefHeight="32.0" prefWidth="135.0" style="-fx-background-color: #34c9eb;" text="View Details" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXTextField fx:id="rollnoinput" focusColor="#34c9eb" layoutX="79.0" layoutY="65.0" promptText="Roll no" />
+            <Label alignment="CENTER_RIGHT" layoutX="4.0" layoutY="257.0" prefHeight="40.0" prefWidth="135.0" text="Roll no : ">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER_RIGHT" layoutX="4.0" layoutY="205.0" prefHeight="40.0" prefWidth="135.0" text="Name : ">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER_RIGHT" layoutX="4.0" layoutY="315.0" prefHeight="40.0" prefWidth="135.0" text="Department :">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER_RIGHT" layoutX="2.0" layoutY="432.0" prefHeight="40.0" prefWidth="135.0" text="Semester :">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER_RIGHT" layoutX="4.0" layoutY="376.0" prefHeight="40.0" prefWidth="135.0" text="Year : ">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="name" layoutX="149.0" layoutY="208.0" prefHeight="32.0" prefWidth="114.0" />
+            <Label fx:id="rollno" layoutX="151.0" layoutY="261.0" prefHeight="32.0" prefWidth="114.0" />
+            <Label fx:id="department" layoutX="151.0" layoutY="319.0" prefHeight="32.0" prefWidth="114.0" />
+            <Label fx:id="year" layoutX="151.0" layoutY="380.0" prefHeight="32.0" prefWidth="114.0" />
+            <Label fx:id="semester" layoutX="151.0" layoutY="436.0" prefHeight="32.0" prefWidth="114.0" />
+            <Label layoutX="469.0" layoutY="264.0" prefHeight="32.0" prefWidth="158.0" text="Days absent">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="468.0" layoutY="68.0" prefHeight="32.0" prefWidth="158.0" text="Marks">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER_RIGHT" layoutX="466.0" layoutY="122.0" prefHeight="40.0" prefWidth="186.0" text="Introduction to Operating Systems : ">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER_RIGHT" layoutX="466.0" layoutY="90.0" prefHeight="40.0" prefWidth="186.0" text="Database Management Systems : ">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER_RIGHT" layoutX="466.0" layoutY="155.0" prefHeight="40.0" prefWidth="186.0" text="Theory of Computation :">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER_RIGHT" layoutX="515.0" layoutY="226.0" prefHeight="40.0" prefWidth="135.0" text="Algorithms :">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER_RIGHT" layoutX="452.0" layoutY="191.0" prefHeight="40.0" prefWidth="200.0" text="Artificial Intelligence and Machine Learning : ">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Label fx:id="dbms" layoutX="662.0" layoutY="93.0" prefHeight="32.0" prefWidth="52.0">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Label fx:id="os" layoutX="664.0" layoutY="126.0" prefHeight="32.0" prefWidth="52.0">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Label fx:id="toc" layoutX="664.0" layoutY="159.0" prefHeight="32.0" prefWidth="52.0">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Label fx:id="aiml" layoutX="664.0" layoutY="195.0" prefHeight="32.0" prefWidth="52.0">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Label fx:id="algo" layoutX="664.0" layoutY="230.0" prefHeight="32.0" prefWidth="52.0">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="202.0" layoutY="14.0" prefHeight="40.0" prefWidth="358.0" text="STUDENT DETAILS" textFill="#34c9eb">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Label>
+            <ScrollPane fx:id="scrollpaneabsent" layoutX="483.0" layoutY="319.0" prefHeight="200.0" prefWidth="200.0">
+               <content>
+                  <VBox fx:id="vboxabsent" prefHeight="200.0" prefWidth="189.0" />
+               </content>
+            </ScrollPane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
