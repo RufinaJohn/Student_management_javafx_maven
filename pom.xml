@@ -58,7 +58,7 @@
 
 
     </dependencies>
-    <packaging>WAR</packaging>
+    <packaging>war</packaging>
     <build>
         <plugins>
             <plugin>
