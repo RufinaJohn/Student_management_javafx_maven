@@ -5,24 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb78a656-bbf7-47a2-9483-d6eec049fd51" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dbms/student_management_javafx_maven/AddStudentPageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dbms/student_management_javafx_maven/EnterAttendancePageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dbms/student_management_javafx_maven/EnterMarksPageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dbms/student_management_javafx_maven/HomePageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dbms/student_management_javafx_maven/LoginPageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dbms/student_management_javafx_maven/SignupPageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dbms/student_management_javafx_maven/StudentManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dbms/student_management_javafx_maven/ViewDetailsPageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +76,7 @@
       <workItem from="1708766599870" duration="3692000" />
       <workItem from="1708778854505" duration="2977000" />
       <workItem from="1708784886381" duration="682000" />
+      <workItem from="1708871277743" duration="576000" />
     </task>
     <servers />
   </component>
