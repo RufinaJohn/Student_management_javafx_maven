@@ -98,7 +98,6 @@
                 <version>3.4.0</version>
                 <configuration>
                     <warSourceDirectory>src/main/webapp</warSourceDirectory>
-                    <webXml>false</webXml>
                 </configuration>
             </plugin>
         </plugins>
